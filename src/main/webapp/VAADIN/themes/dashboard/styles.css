@@ -11397,6 +11397,16 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 20px;
 }
 
+.dashboard .profilePic .v-image {
+	border: 1px solid #c5c5c5;
+	border-radius: 70px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.05);
+	display: block;
+	margin: 0 auto 0.3em;
+	width: 125px;
+	height: 125px;
+}
+
 .dashboard .loginview {
 	background-color: #fafafa;
 	background-image: -webkit-radial-gradient(50% 50%, circle, #f5f5f5, #e1e1e1);
@@ -11421,9 +11431,9 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 25px 25px;
 	min-width: 208px;
 	max-width: 90%;
-	-webkit-animation: valo-animate-in-slide-up 800ms 10ms backwards, valo-animate-in-fade 600ms 100ms backwards;
-	-moz-animation: valo-animate-in-slide-up 800ms 10ms backwards, valo-animate-in-fade 600ms 100ms backwards;
-	animation: valo-animate-in-slide-up 800ms 10ms backwards, valo-animate-in-fade 600ms 100ms backwards;
+	-webkit-animation: animate-in-scale-up 500ms 10ms backwards, valo-animate-in-fade 300ms 100ms backwards;
+	-moz-animation: animate-in-scale-up 500ms 10ms backwards, valo-animate-in-fade 300ms 100ms backwards;
+	animation: animate-in-scale-up 500ms 10ms backwards, valo-animate-in-fade 300ms 100ms backwards;
 }
 
 .dashboard .login-panel  > .v-spacing {
@@ -11472,27 +11482,6 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-animation: animate-in-scale-up 500ms 10ms backwards, valo-animate-in-fade 300ms 100ms backwards;
 	-moz-animation: animate-in-scale-up 500ms 10ms backwards, valo-animate-in-fade 300ms 100ms backwards;
 	animation: animate-in-scale-up 500ms 10ms backwards, valo-animate-in-fade 300ms 100ms backwards;
-}
-
-.dashboard .login-help {
-	margin: 0 9px !important;
-}
-
-.dashboard .login-help.v-Notification-animate-in {
-	-webkit-animation: valo-animate-in-fade 500ms 1500ms backwards;
-	-moz-animation: valo-animate-in-fade 500ms 1500ms backwards;
-	animation: valo-animate-in-fade 500ms 1500ms backwards;
-}
-
-.dashboard .login-help p span {
-	display: block;
-	margin-top: 0.5em;
-}
-
-.dashboard .login-help p span a {
-	color: #fff;
-	text-decoration: none;
-	border-bottom: 1px solid #888;
 }
 
 .dashboard .dashboard-view.dashboard-view {
